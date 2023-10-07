@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor Morse</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/2-removebg-preview.png" alt="Logo" class="logo">
+        <h1>Traductor De Codigo Morse</h1>
+    </header>
+    <nav>
+        <a href="TraducirTextoAMorse.html">Traducir De texto A Morse</a>
+        <a href="TraducirMorseATexto.html">Traducir De Morse A texto</a>
+    </nav>
+    <br>
+    <h2>Traducir De Morse A texto</h2>
+    <br>
+    <div class="contenido">
+        <input type="text" id="morseInput" placeholder="Ingresa tu texto en codigo morse aquí">
+        <br>
+        <p>Podrás ver la traducción de tu codigo Morse a texto y podrás escuchar la traducción del texto.</p>
+        <br>
+        <textarea id="resultado" readonly></textarea>
+        <br>
+        <button onclick="traducirMorse()">Traducir</button>
+        <button onclick="reproducirTexto()">Reproducir</button>
+        <button onclick="borrarYDetener()">Borrar</button>
+    </div>
+    <br>
+
+    <footer>
+        &copy; Yulian Ferney Vargas Motta
+    </footer>
+    <script src="js/TraducirMorseATexto.js"></script>
+</body>
+
+
+
+</html>
